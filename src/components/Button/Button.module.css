@@ -1,0 +1,18 @@
+.btnSignIn {
+  width: 100px;
+  height: 25px;
+  background: rgba(156, 154, 154, 0.5);
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.btnSignIn:hover {
+  cursor: pointer;
+}
+
+.btnSignIn:active {
+  background: rgba(169, 167, 167, 0.8);
+}

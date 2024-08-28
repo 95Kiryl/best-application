@@ -1,0 +1,97 @@
+.formWrapper {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  background: rgba(156, 154, 154, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.titleForm {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputForm {
+  width: 330px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.inputForm::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.inputForm:active,
+:hover,
+:focus {
+  outline: none;
+}
+
+.inputForm::-webkit-input-placeholder {
+  color: #000000;
+}
+.inputForm::-moz-placeholder {
+  color: #000000;
+}
+.inputForm:-moz-placeholder {
+  color: #000000;
+}
+.inputForm:-ms-input-placeholder {
+  color: #000000;
+}
+
+.btnForm {
+  width: 360px;
+  height: 50px;
+  position: absolute;
+  bottom: 15px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.btnForm:hover {
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .formWrapper {
+    width: 80%;
+  }
+
+  .inputForm {
+    width: 85%;
+  }
+
+  .btnForm {
+    width: 94%;
+  }
+}

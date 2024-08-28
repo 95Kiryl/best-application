@@ -1,0 +1,14 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(128, 128, 128);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
