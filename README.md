@@ -7,7 +7,7 @@ The main page, receives data from [https://jsonplaceholder.typicode.com/posts] (
 Clicking on the LogIn button takes you to the registration page, where you can enter the username and send the data. After submitting the form, you will receive a request at [https://jsonplaceholder.typicode.com/users ?username=<username>](https://jsonplaceholder.typicode.com/users?username=<username>) where <username> is their user that you entered in the field. If no one knows about the use, a warning will appear about it. If the user's data has arrived, it is saved in the global storage, a redirect to the main page takes place and the LogIn button changes to the LogOut button.
 To check the registration, try using one of the following names: Bret, Antonette, Samantha, Karianne.
 When you click on the LogOut button, the user's data is deleted from the global storage and the button changes to LogIn.
-To launch the application download the files to your local computer and run the npm start command in the console.
+To run the application, download the archive from the GitHub repository to your local computer. Open the project in the code editor and install the node-modules dependencies in the project folder with the ### `npm install` command. After the dependencies are installed, run the application with the ### `npm start` command.
 
 ## Available Scripts
 
